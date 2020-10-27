@@ -1,27 +1,37 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     padding: 0;
     margin: 0;
-    background: #a4c9e7;
+    background: #fdfdfd;
 }
+
   /*--- navigation bar ---*/
 .navbar {
-    background:#0f1c2a;
+    background: #25406a;
 }
+
 .nav-link, .navbar-brand {
     color: #fff;
     cursor: pointer;
 }
+
 .nav-link {
     margin-right: 1em !important;
 }
+
 .nav-link:hover {
-    color: #000;
+    color: #bddcee;
 }
+
 .navbar-collapse {
     justify-content: flex-end;
 }
+
 .header {
-    background-image: url('img/ging.jpg');
+    background-image: url('img/chicago.jpg');
     background-size: cover;
     background-position: center;
     position: relative;
@@ -34,9 +44,11 @@ body {
     transform: translate(-50%, -55%);
     text-align: center;
 }
+
 .description h1 {
     color: #bddcee;
 }
+
 .description p {
     color: #fff;
     font-size: 1.3rem;
@@ -58,6 +70,7 @@ body {
     border-radius: 0;
     color:#fff;
 }
+
 .description button:hover {
     border:1px solid #0f1c2a;
     background:#fff;
@@ -65,20 +78,37 @@ body {
 }
 
 .features {
-    margin: 4em auto;
+    margin: 8px auto;
     padding: 1em;
     position: relative;
-  }
-  .feature-title {
+}
+
+.feature-title {
     color: #333;
     font-size: 1.3rem;
     font-weight: 700;
     margin-bottom: 20px;
     text-transform: uppercase;
-  }
-  .features img {
+}
+
+.features img {
     -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
     -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
     margin-bottom: 16px;
-  }
+}
+
+.features h1 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#contact {
+    background-color: #25406a;
+}
+
+.contact h1 {
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
